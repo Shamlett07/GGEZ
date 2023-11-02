@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="ReviewPage1_css.css" rel="stylesheet" />
+    <title>Video Game Reviews</title>
+	<div class="image-container">
+		<img src="GGEZ_picture.png" alt = "GGEZ" class="top-right">
+	</div>
+	
+
+</head>
+<body>
+    <header>
+		<nav role="navigation" aria-label="Main navigation">
+			<ul role="menu">
+				<li role="menuitem"><a href="index.html">Home</a></li>
+				<li role="menuitem"><a href="ReviewPage1.html">Reviews</a></li>
+				<li role="menuitem"><a href="AboutUs.html">About Us</a></li>
+			</ul>
+		</nav>
+		<h1>Video Game Reviews</h1>
+    </header>
+    <section id = gameReview>
+         <!-- There will be quick links to quickly get to the section of the review the user is the most
+            interested in reading about in case they do not want to read the whole review-->
+            <h1>Baldur's Gate 3</h1>
+            <img src = "Cover Picture.jpg">
+            <p>
+            The third installment of the baldurs Gate series is out now for the world to enjoy. The game is a table top role-playing game that is based on the system of D&D. You can create your own character, create your party, and set off on your own unique adventure.
+            This game relies heavily on player choice dictating how the game will procede. environment is rich with lots of secret locations and items to find. You will also meet many interesting character that can join you on your journey or become your enemy. You can choose your own
+            adventure so whether you want to the hero to save that saves the day, or the villian who causes the most harm in every situation it is up to you. Here we will
+            go into detail about all the components of this game that make it stand out from the rest. From your character design to the combat system you will see if Baldurs Gate 3 is worth the price of $69.99(US).
+            </p>
+        <h2>Key Points:</h2>
+        <h3>Character Creation:</h3>
+            <img src="Character Creations.jpg" alt="Baldur's Gate Character Creation" style = "width:500px; height:300px" >
+            <p>
+                The first, and arguably most important, part of the Baldurs Gate experience is the character creation. First, you will choose your race there are a total of 11 races to choose from. Within races there are sub-races, these will determine certain bonus points that will be
+                allocated to your character. For example, if you were to be of the race elf then you could choose between 2 sub races, High-elf and Wood. After choosing your race and sub-race you will move on to your class. There are 12 classes you can choose from. The class
+                you choose will determine what kind of abilities you specialize in during combat. Then within certain classes there will be sub-classes to assign further bonuses and attacks. Once you determine your class you will then decide on the background of your character.
+                The background of your character will give even more bonus and also establish a certain skill set your character might have. Finally you will move on to the physical attributes of character creation. From skin color to facial markers you can create your own unique character
+                to explore with. However there is a slight downside to the character creation. You can only pick from a few predetermined facial structures that are unable to changed. Despite this slight set back the character creation from baldurs gate is phenomenial and will
+                allow for you to create a range of characters with their own special characteristics.
+            </p>
+        <h3>Custom Party</h3>
+            <p>
+                Baldurs Gate is set in a D&D expierence and one of the most important features of D&D is the ability to establish a party. As you travel around the map you will meet a range of characters that are willing to help you in this journey to cure yourself.
+                Each member can have their own set of skills and utilities that will assist in your battle strategy. Most importantly its all customizable so if you descide you don't want a particular character on your journey you dont have to bring them along. You can even kill off 
+                particular characters, if you feel so inclined. All is up to whatever your personal playstyle is. Each member has their own story that the character can learn about by speaking with them and choosing options that they agree with. You can even have a little bit of romance
+                within the party if you want.
+            </p>
+            <h4>Key Characters</h4>
+            <div .imageContainer>
+                <img src = "Astarion.jpg" style = "width:200px; height:200px">
+                <figcaption>Astarion</figcaption>
+                <img src ="Lazel.jpg">
+                <figcaption>Lae'zel</figcaption>
+            </div>           
+
+        <!--This is where the user can add in there own input and rating to the game so other will be able to read
+        the professional website review and also other customer reviews-->
+        
+    </section>
+	<section id="container">
+	<aside id="left-sidebar"></aside>
+    <section id="review-form">
+	
+        <h2>Write a Review</h2>
+        <form id="review-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="game-title">Game Title:</label>
+                <input type="text" id="game-title" required>
+                <label for="review-text">Review:</label>
+                <textarea id="review-text" required></textarea>
+                <button type="submit">Submit Review</button>
+        </form>
+    </section>
+    <section id="reviews">
+        <h2>Recent Reviews</h2>
+        <ul id="review-list">
+            <script src="Submit.js"></script>
+        </ul>
+    </section>
+	<aside id="right-sidebar"></aside>
+</body>
+</html>

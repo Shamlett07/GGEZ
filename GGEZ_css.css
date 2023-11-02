@@ -1,0 +1,98 @@
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply your color scheme */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: gray;
+}
+
+nav ul {
+    background-color: #333; /* Soft background color for the navigation bar */
+    text-align: center;
+    padding: 10px 0; /* Add padding to space out the links vertically */
+	width: 100%
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Add margin to space out the links horizontally */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    background-color: black;
+}
+
+#left-sidebar, #right-sidebar {
+    background-color: red; /* Red sidebars on both sides */
+    width: 5%; /* Adjust the width of the sidebars as needed */
+	
+}
+
+
+#introduction {
+    margin: 20px;
+    padding: 20px;
+}
+
+#introduction h1 {
+    font-size: 36px;
+}
+
+#introduction p {
+    font-size: 18px;
+}
+
+.image-container 
+{
+            position: relative;
+        }
+
+        .top-right 
+		{
+            position: relative;
+            top: 0;
+            left: 1100px;
+			width: 120px;
+			height: 100px;
+        }
+		
+.genre h3 
+{
+    font-size: 24px; /* Increase the font size for genre titles */
+    margin: 20px 0; /* Add space between genre titles */
+}
+
+.small-image {
+    width: 150px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Normal state */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover state */
+nav ul li a:hover {
+    color: #FF5733; /* Change the text color to a highlight color */
+    background-color: #333; /* Change the background color on hover */
+}
